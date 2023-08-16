@@ -32,7 +32,7 @@ const sugestoesController = require('../src/controller/sugestaoController.js');
  *       '200':
  *         description: OK
  */
-router.get('/sugestoes/:modo/:estilo', sugestoesController.sugerir);
+router.get('/sugestoes/:modo/:estilo', sugestoesController.categorias);
 /**
  * @swagger
  * /sugestoes/:
@@ -60,7 +60,7 @@ router.get('/sugestoes/:modo/:estilo', sugestoesController.sugerir);
  *         description: OK
  */
 
-router.get('/sugestoes/', sugestoesController.filtrar);
+router.get('/sugestoes/', sugestoesController.recomendar);
 /**
  * @swagger
  * /sugestoes/{modo}/{estilo}/happy-hour:
@@ -133,101 +133,6 @@ router.get('/sugestoes/:modo/:estilo/lugares', sugestoesController.lugares);
  *         description: OK
  */
 router.get('/sugestoes/:modo/:estilo/acomodacoes', sugestoesController.acomodacoes);
-/**
- * @swagger
- * /sugestoes/{modo}/{estilo}/eventos:
- *   get:
- *     summary: Obter sugestões de eventos com base no modo e estilo
- *     tags: [Sugestões]
- *     parameters:
- *       - name: modo
- *         in: path
- *         description: Modo de sugestão (por exemplo, "trabalho")
- *         required: true
- *         schema:
- *           type: string
- *       - name: estilo
- *         in: path
- *         description: Estilo de sugestão (por exemplo, "nomadedigital")
- *         required: true
- *         schema:
- *           type: string
- *     responses:
- *       '200':
- *         description: OK
- */
 router.get('/sugestoes/:modo/:estilo/eventos', sugestoesController.eventos);
-/**
- * @swagger
- * /sugestoes/{modo}/{estilo}/experiencias:
- *   get:
- *     summary: Obter sugestões de experiencias com base no modo e estilo
- *     tags: [Sugestões]
- *     parameters:
- *       - name: modo
- *         in: path
- *         description: Modo de sugestão (por exemplo, "trabalho")
- *         required: true
- *         schema:
- *           type: string
- *       - name: estilo
- *         in: path
- *         description: Estilo de sugestão (por exemplo, "nomadedigital")
- *         required: true
- *         schema:
- *           type: string
- *     responses:
- *       '200':
- *         description: OK
- */
-router.get('/sugestoes/:modo/:estilo/experiencias', sugestoesController.experiencias);
-/**
- * @swagger
- * /sugestoes/{modo}/{estilo}/alimentacao:
- *   get:
- *     summary: Obter sugestões de alimentacao com base no modo e estilo
- *     tags: [Sugestões]
- *     parameters:
- *       - name: modo
- *         in: path
- *         description: Modo de sugestão (por exemplo, "trabalho")
- *         required: true
- *         schema:
- *           type: string
- *       - name: estilo
- *         in: path
- *         description: Estilo de sugestão (por exemplo, "nomadedigital")
- *         required: true
- *         schema:
- *           type: string
- *     responses:
- *       '200':
- *         description: OK
- */
-router.get('/sugestoes/:modo/:estilo/alimentacao', sugestoesController.alimentacao);
-/**
- * @swagger
- * /sugestoes/{modo}/{estilo}/passeios-guiados:
- *   get:
- *     summary: Obter sugestões de passeiosguiados com base no modo e estilo
- *     tags: [Sugestões]
- *     parameters:
- *       - name: modo
- *         in: path
- *         description: Modo de sugestão (por exemplo, "trabalho")
- *         required: true
- *         schema:
- *           type: string
- *       - name: estilo
- *         in: path
- *         description: Estilo de sugestão (por exemplo, "nomadedigital")
- *         required: true
- *         schema:
- *           type: string
- *     responses:
- *       '200':
- *         description: OK
- */
-router.get('/sugestoes/:modo/:estilo/passeios-guiados', sugestoesController.passeiosGuiados);
 
 module.exports = router;

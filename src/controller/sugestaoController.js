@@ -3,59 +3,34 @@ const sugestao = {
         nomadedigital: {            
                 lugares: [
                     "11126",
-                    "11128",                    
-                    "11038",
-                    "11039",
-                    "11131"
+                    "11128",
+                    //"Experimentar cafés locais",
+                    //"Almoços saudáveis para manter a produtividade",
+                    //"Jantares sociais com outros nômades digitais"
                 ],
                 acomodacoes: [
                     "19014"
                 ],
                 eventos: [
-                    "14000",	//Event
-                    "14001",	//Event > Conference
-                    "14002",	//Event > Convention
-                    "14003",	//Event > Entertainment Event
-                    "14004",	//Event > Entertainment Event > Festival
-                    "14005",	//Event > Entertainment Event > Music Festival
-                    "14006",	//Event > Entertainment Event > Parade
-                    "14007",	//Event > Entertainment Event > Sporting //Event
-                    "14008",	//Event > Line
-                    "14009",	//Event > Marketplace
-                    "14010",	//Event > Marketplace > Christmas Market
-                    "14011",	//Event > Marketplace > Stoop Sale
-                    "14012",	//Event > Marketplace > Street Fair
-                    "14013",	//Event > Marketplace > Street Food Gathering
-                    "14014",	//Event > Marketplace > Trade Fair
-                    "14015",	//Event > Other Event
-                ],
-                experiencias: [
+                    "Encontros de networking",
+                    "Conferências para nômades digitais",
+                    "Meetups",
+                    "Hackathons",
                     "Participar de workshops de tecnologia",
                     "Explorar espaços de coworking locais",
-                    "Participar de atividades de networking"
-                ],
-                alimentacao: [
-                    "13052",	//Dining and Drinking > Food Court
-                    "13053",	//Dining and Drinking > Food Stand
-                    "13054",	//Dining and Drinking > Food Truck
-                    "13134",	//Dining and Drinking > Restaurant > Comfort Food Restaurant
-                    "13145",	//Dining and Drinking > Restaurant > Fast Food Restaurant
-                    "13338",	//Dining and Drinking > Restaurant > Seafood Restaurant
-                    "13344",	//Dining and Drinking > Restaurant > Southern Food Restaurant
+                    "Participar de atividades de networking",
+                    "Tours tecnológicos pela cidade",
+                    "Exploração de bairros com foco em negócios"
                 ],
                 happyHour: [
                     "Confraternização em bares com Wi-Fi",
-                    "Participação em eventos sociais de coworking"
+                    "Participação em eventos sociais de coworking",                
                 ],
                 profissoes: [
                     "Profissionais de TI",
                     "Designers",
                     "Redatores"
-                ],
-                passeiosGuiados: [
-                    "Tours tecnológicos pela cidade",
-                    "Exploração de bairros com foco em negócios"
-                ],
+                ],                
                 faixaEtaria: { inicial: 25, final: 45 },
                 faixaValor: { inicial: 40, final: 120 }
             }
@@ -66,7 +41,10 @@ const sugestao = {
                 "Cidades históricas",
                 "Museus",
                 "Locais religiosos",
-                "Teatros"
+                "Teatros",
+                "Experimentar pratos tradicionais",
+                "Jantar em restaurantes locais",
+                "Degustações"
             ],
             acomodacoes: [
                 "Hotéis tradicionais",
@@ -76,17 +54,12 @@ const sugestao = {
             eventos: [
                 "Festivais culturais",
                 "Exposições de arte",
-                "Palestras"
-            ],
-            experiencias: [
+                "Palestras",
                 "Visitas guiadas a monumentos históricos",
-                "Tours de arte"
-            ],
-            alimentacao: [
-                "Experimentar pratos tradicionais",
-                "Jantar em restaurantes locais",
-                "Degustações"
-            ],
+                "Tours de arte",
+                "Walking tours pela cidade",
+                "Tours de arte e cultura"
+            ],            
             happyHour: [
                 "Coquetéis em bares locais",
                 "Bares temáticos"
@@ -95,11 +68,7 @@ const sugestao = {
                 "Historiadores",
                 "Professores",
                 "Guias turísticos"
-            ],
-            passeiosGuiados: [
-                "Walking tours pela cidade",
-                "Tours de arte e cultura"
-            ],
+            ],            
             faixaEtaria: { inicial: 25, final: 60 },
             faixaValor: { inicial: 50, final: 150 }
         },
@@ -146,7 +115,9 @@ const sugestao = {
             lugares: [
                 "Parques nacionais",
                 "Reservas naturais",
-                "Florestas"
+                "Florestas",
+                "Refeições frescas e orgânicas",
+                "Pratos locais"
             ],
             acomodacoes: [
                 "Eco lodges",
@@ -155,17 +126,13 @@ const sugestao = {
             eventos: [
                 "Passeios de observação de aves",
                 "Safáris",
-                "Palestras ambientais"
-            ],
-            experiencias: [
+                "Palestras ambientais",
                 "Trilhas interpretativas",
                 "Safáris fotográficos",
-                "Passeios de bicicleta ecológicos"
-            ],
-            alimentacao: [
-                "Refeições frescas e orgânicas",
-                "Pratos locais"
-            ],
+                "Passeios de bicicleta ecológicos",
+                "Guias de observação de aves",
+                "Guias de safári"               
+            ],                        
             happyHour: [
                 "Piqueniques ao entardecer",
                 "Bebidas orgânicas"
@@ -175,17 +142,15 @@ const sugestao = {
                 "Ecologistas",
                 "Naturalistas"
             ],
-            passeiosGuiados: [
-                "Guias de observação de aves",
-                "Guias de safári"
-            ],
             faixaEtaria: { inicial: 25, final: 55 },
             faixaValor: { inicial: 70, final: 180 }
         },
         viagemdeluxo: {
             lugares: [
                 "Destinos exclusivos",
-                "Resorts de luxo"
+                "Resorts de luxo",
+                "Jantares sofisticados",
+                "Experiências gastronômicas"
             ],
             acomodacoes: [
                 "Hotéis de cinco estrelas",
@@ -194,15 +159,11 @@ const sugestao = {
             eventos: [
                 "Jantares gourmet",
                 "Festas exclusivas",
-                "Eventos de moda"
-            ],
-            experiencias: [
+                "Eventos de moda",
                 "Passeios de iate com guia",
-                "Excursões VIP"
-            ],
-            alimentacao: [
-                "Jantares sofisticados",
-                "Experiências gastronômicas"
+                "Excursões VIP",
+                "Passeios de iate privados",
+                "Tours personalizados"
             ],
             happyHour: [
                 "Coquetéis em bares luxuosos",
@@ -212,18 +173,17 @@ const sugestao = {
                 "Empresários",
                 "Executivos",
                 "Celebridades"
-            ],
-            passeiosGuiados: [
-                "Passeios de iate privados",
-                "Tours personalizados"
-            ],
+            ],            
             faixaEtaria: { inicial: 30, final: 65 },
             faixaValor: { inicial: 200, final: 500 }
         },
         mochilao: {
             lugares: [
                 "Destinos econômicos",
-                "Cidades históricas"
+                "Cidades históricas",
+                "Comidas de rua",
+                "Cozinhar refeições simples",
+                "Compartilhar refeições"
             ],
             acomodacoes: [
                 "Albergues",
@@ -233,16 +193,11 @@ const sugestao = {
             eventos: [
                 "Encontros de mochileiros",
                 "Festivais de música",
-                "Oficinas criativas"
-            ],
-            experiencias: [
+                "Oficinas criativas",
                 "Passeios a pé por bairros locais",
-                "Tours alternativos"
-            ],
-            alimentacao: [
-                "Comidas de rua",
-                "Cozinhar refeições simples",
-                "Compartilhar refeições"
+                "Tours alternativos",
+                "Passeios urbanos a pé",
+                "Tours culturais autênticos"
             ],
             happyHour: [
                 "Conhecer bares locais",
@@ -252,11 +207,7 @@ const sugestao = {
                 "Estudantes",
                 "Artistas",
                 "Freelancers"
-            ],
-            passeiosGuiados: [
-                "Passeios urbanos a pé",
-                "Tours culturais autênticos"
-            ],
+            ],            
             faixaEtaria: { inicial: 18, final: 35 },
             faixaValor: { inicial: 20, final: 80 }
         }
@@ -267,21 +218,23 @@ const sdk = require('api')('@fsq-developer/v1.0#78iknmrc2aljgfbp90');
 sdk.auth('fsq3ykYAdV62fl/auns/QYxwbG9We6a/XnAnCP2UVtSFv9M=');
 
 sugestaoPorCategoria = (modo, estilo, categoria) => {    
-    const resultado = sugestao[modo][estilo];    
+    const resultado = sugestao[modo][estilo];        
     if (resultado) {
         return resultado[categoria];
     } 
-    return null;
+    return [];
 }
 
-searchPlaceFourSquare = async (ll, categories) => {
+searchPlaceFourSquareByLatLongAndCategories = async (ll, categories) => {
+    ll = ll || "-23.5583%2C-46.6415";  
+    console.log("await searchPlaceFourSquareByLatLongAndCategories:", ll, categories);     
     const { data } = await sdk.placeSearch({
-        ll: '-23.5583%2C-46.6415',
+        ll,
         categories,
         sort: 'RATING',
-        session_token: 'sCmRnJAEgBjNPU4WZqb7jDGgLESTXpsG'
+        session_token: 'sCmRnJAEgBjNPU4WZqb7jDGgLESTXpsG' //gerado aleatóriamente deve conter 32 digitos alphanumericos conforme doc
     });
-
+    
     return await Promise.all(
         data.results.map(async (d, index) => {
             const { fsq_id, location, name } = d;
@@ -289,21 +242,28 @@ searchPlaceFourSquare = async (ll, categories) => {
             let photos = placePhotos?.data?.map(p => `${p.prefix}original${p.suffix}`) || [];            
             return {
                 id: fsq_id,
+                sponsored: index < 2 ? true : false,
+                plan: "FREE",
                 location,
                 name,
                 ranking: index + 1,
-                photos
+                photos                
             };
         })
-    ) || [];   
+    ) || [];    
 }
 
-buscarLugaresPorCategoria = async (modo, estilo, ll, tag) =>{    
-    const categories = sugestaoPorCategoria(modo, estilo, tag).join(",");      
-    return  await searchPlaceFourSquare(ll, categories);
+buscarLugaresPorCategoria = async (modo, estilo, ll, tag) => {        
+    const categories = sugestaoPorCategoria(modo, estilo, tag).join(","); 
+    console.log("buscarLugaresPorCategoria:", categories);
+    if(categories){
+        return await searchPlaceFourSquareByLatLongAndCategories(ll, categories);
+    }         
+    return [];
+    
 }
 
-exports.sugerir = (req, res) => {
+exports.categorias = (req, res) => {
     const { modo, estilo} = req.params;        
     const resultado = sugestao[modo][estilo];    
     if (resultado) {
@@ -312,21 +272,13 @@ exports.sugerir = (req, res) => {
     return res.status(404).json({ id, message: "não encontrado." });
 };
 
-exports.happyHour = (req, res) => {
-    const { modo, estilo} = req.params;        
-    const resultado = sugestaoPorCategoria(modo, estilo, "happyHour");
-    if (resultado) {
-        return res.json(resultado);
-    } 
-    return res.status(404).json({ id, message: "não encontrado." });
-};
-
-exports.lugares = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
+exports.lugares = async (req, res) => {    
+    let { modo, estilo, ll, tag} = req.params;    
     tag = tag || "lugares";
+    console.log("controller.lugares:", modo, estilo, ll, tag);
     try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
+        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);
+        console.log("controller.placesWithPhotos:", placesWithPhotos?.length || 0);
         if(!placesWithPhotos || !placesWithPhotos.length){
             return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
         }
@@ -337,11 +289,12 @@ exports.lugares = async (req, res) => {
 };
 
 exports.acomodacoes = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
+    let { modo, estilo, ll, tag} = req.params;    
     tag = tag || "acomodacoes";
+    console.log("controller.acomodacoes:", modo, estilo, ll, tag);
     try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
+        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);
+        console.log("controller.placesWithPhotos:", placesWithPhotos?.length || 0);
         if(!placesWithPhotos || !placesWithPhotos.length){
             return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
         }
@@ -352,11 +305,12 @@ exports.acomodacoes = async (req, res) => {
 };
 
 exports.eventos = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
+    let { modo, estilo, ll, tag} = req.params;    
     tag = tag || "eventos";
+    console.log("controller.eventos:", modo, estilo, ll, tag);
     try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
+        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);
+        console.log("controller.placesWithPhotos:", placesWithPhotos?.length || 0);
         if(!placesWithPhotos || !placesWithPhotos.length){
             return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
         }
@@ -366,13 +320,13 @@ exports.eventos = async (req, res) => {
     }
 };
 
-
-exports.alimentacao = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
-    tag = tag || "alimentacao";
+exports.happyHour = async (req, res) => {
+    let { modo, estilo, ll, tag} = req.params;    
+    tag = tag || "happyHour";
+    console.log("controller.happyHour:", modo, estilo, ll, tag);
     try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
+        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);
+        console.log("controller.placesWithPhotos:", placesWithPhotos?.length || 0);
         if(!placesWithPhotos || !placesWithPhotos.length){
             return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
         }
@@ -382,63 +336,42 @@ exports.alimentacao = async (req, res) => {
     }
 };
 
-exports.experiencias = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
-    tag = tag || "experiencias";
-    try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
-        if(!placesWithPhotos || !placesWithPhotos.length){
-            return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
-        }
-        return res.json(placesWithPhotos);
-    } catch (err) {
-        return res.status(500).json(err);
-    }
-};
-
-exports.passeiosGuiados = async (req, res) => {
-    let { modo, estilo, ll, tag} = req.params;
-    ll = ll || "-23.5583%2C-46.6415";    
-    tag = tag || "passeioGuiado";
-    try {                
-        placesWithPhotos = await buscarLugaresPorCategoria(modo, estilo, ll, tag);        
-        if(!placesWithPhotos || !placesWithPhotos.length){
-            return res.status(404).json({modo, estilo, ll, message: "não encontrado." });
-        }
-        return res.json(placesWithPhotos);
-    } catch (err) {
-        return res.status(500).json(err);
-    }
-};
-
-exports.filtrar = (req, res) => {
-    const { profissao, idade, valorMedio } = req.query;
+exports.recomendar = (req, res) => {
+    const { profissao, idade, valorMedioPorDia } = req.query;
     const resultados = [];
 
-    if(Number.isNaN(idade) || Number.isNaN(valorMedio)){
-        return res.status(400).json({ mensagem: 'idade e valorMedio devem ser números' });    
+    if(Number.isNaN(idade) || Number.isNaN(valorMedioPorDia)){
+        return res.status(400).json({ mensagem: 'idade e valorMedioPorDia devem ser números' });    
     }   
     
     for (const modo in sugestao) {
       for (const estilo in sugestao[modo]) {        
         const info = sugestao[modo][estilo];                  
-        info.profissoes = info.profissoes.map(p => p.toLowerCase());        
+        info.profissoes = info.profissoes.map(p => p.toLowerCase());
+        console.log(info.profissoes);
+        
         if (
             info.profissoes.includes(profissao?.toLowerCase())
             || (idade >= info.faixaEtaria.inicial && idade <= info.faixaEtaria.final)
-            || (valorMedio >= info.faixaValor.inicial && valorMedio <= info.faixaValor.final)
+            || (valorMedioPorDia >= info.faixaValor.inicial && valorMedioPorDia <= info.faixaValor.final)                        
+            || (valorMedioPorDia >= info.faixaValor.final)
         ) {
+
           resultados.push({
             modo,
             estilo,
             sugestao: info,
           });
-        }         
+        } 
+        
       }
-    }  
+    }
+  
     if (resultados.length > 0) {
-      return res.json(resultados);
+      return res.json(resultados.map(r => ({
+        plan: 'PREMIUM',
+        sugestao: `Sugerimos o modo de viagem: ${r.modo} com estilo: ${r.estilo} e custo médio por dia de: ${r.sugestao.faixaValor.inicial} até: ${r.sugestao.faixaValor.final}`
+      })));
     } 
     return res.status(404).json({ mensagem: 'Nenhum resultado encontrado' });    
 };
