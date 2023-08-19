@@ -138,6 +138,85 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "cidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cidades",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cidades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cidades/paris",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cidades/paris",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cidades",
+						"paris"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cidades/frança",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cidades/frança",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cidades",
+						"frança"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cidades/são paulo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cidades/são paulo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cidades",
+						"são paulo"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
