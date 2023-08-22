@@ -1,7 +1,7 @@
 const modos = [
     {
         id: 1,
-        codigo: "trahalho",
+        codigo: "trabalho",
         descricao: "Trabalho",
         icon: "",
     },
