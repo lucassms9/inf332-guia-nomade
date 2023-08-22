@@ -2,35 +2,25 @@ const sugestao = {
     trabalho: {
         nomadedigital: {            
                 lugares: [
-                    "11126",
-                    "11128",
-                    //"Experimentar cafés locais",
-                    //"Almoços saudáveis para manter a produtividade",
-                    //"Jantares sociais com outros nômades digitais"
+					"10020", 
+                    "11128"				
                 ],
                 acomodacoes: [
-                    "19014"
+                    "19010",
+					"19013",			
+                ],
+				happyHour: [
+					"13003"
                 ],
                 eventos: [
-                    "Encontros de networking",
-                    "Conferências para nômades digitais",
-                    "Meetups",
-                    "Hackathons",
-                    "Participar de workshops de tecnologia",
-                    "Explorar espaços de coworking locais",
-                    "Participar de atividades de networking",
-                    "Tours tecnológicos pela cidade",
-                    "Exploração de bairros com foco em negócios"
-                ],
-                happyHour: [
-                    "Confraternização em bares com Wi-Fi",
-                    "Participação em eventos sociais de coworking",                
+                    "14001",
+                    "14002",
                 ],
                 profissoes: [
                     "Profissionais de TI",
                     "Designers",
                     "Redatores"
-                ],                
+                ],
                 faixaEtaria: { inicial: 25, final: 45 },
                 faixaValor: { inicial: 40, final: 120 }
             }
@@ -38,105 +28,67 @@ const sugestao = {
     ferias: {
         turismocultural: {
             lugares: [
-                "Cidades históricas",
-                "Museus",
-                "Locais religiosos",
-                "Teatros",
-                "Experimentar pratos tradicionais",
-                "Jantar em restaurantes locais",
-                "Degustações"
+				"10027",
+				"10004",
             ],
             acomodacoes: [
-                "Hotéis tradicionais",
-                "Pousadas charmosas",
-                "Casas de hóspedes locais"
+                "19014"		
+            ],
+			happyHour: [
+                "13027",
+                "13383"
             ],
             eventos: [
                 "Festivais culturais",
                 "Exposições de arte",
-                "Palestras",
-                "Visitas guiadas a monumentos históricos",
-                "Tours de arte",
-                "Walking tours pela cidade",
-                "Tours de arte e cultura"
-            ],            
-            happyHour: [
-                "Coquetéis em bares locais",
-                "Bares temáticos"
+                "Palestras"
             ],
             profissoes: [
                 "Historiadores",
                 "Professores",
                 "Guias turísticos"
-            ],            
+            ],
             faixaEtaria: { inicial: 25, final: 60 },
             faixaValor: { inicial: 50, final: 150 }
         },
         aventuraesportes: {
             lugares: [
-                "Destinos com montanhas",
-                "Praias",
-                "Parques naturais"
+                "10001",
+				"18000",
             ],
             acomodacoes: [
-                "Acampamentos",
-                "Lodges",
-                "Cabanas rústicas"
-            ],
-            eventos: [
-                "Competições esportivas",
-                "Festivais de esportes",
-                "Workshops"
-            ],
-            experiencias: [
-                "Trilhas guiadas por montanhas",
-                "Passeios de bicicleta por trilhas naturais"
-            ],
-            alimentacao: [
-                "Refeições energéticas",
-                "Alimentos leves e saudáveis"
+				"19016",
             ],
             happyHour: [
-                "Bebidas refrescantes após atividades",
-                "Bares com vista panorâmica"
+                "13332",
+                "13338"
+            ],
+            eventos: [
+                "14007"
             ],
             profissoes: [
                 "Instrutores de esportes",
                 "Treinadores físicos"
-            ],
-            passeiosGuiados: [
-                "Guias de trilha",
-                "Instrutores de esportes radicais"
             ],
             faixaEtaria: { inicial: 18, final: 45 },
             faixaValor: { inicial: 60, final: 200 }
         },
         ecoturismonatureza: {
             lugares: [
-                "Parques nacionais",
-                "Reservas naturais",
-                "Florestas",
-                "Refeições frescas e orgânicas",
-                "Pratos locais"
+                "16034"
             ],
             acomodacoes: [
-                "Eco lodges",
-                "Acampamentos sustentáveis"
+                "19016",
+                "16008"
+            ],
+            happyHour: [
+                "16036",
+                "13377"
             ],
             eventos: [
-                "Passeios de observação de aves",
-                "Safáris",
-                "Palestras ambientais",
-                "Trilhas interpretativas",
-                "Safáris fotográficos",
-                "Passeios de bicicleta ecológicos",
-                "Guias de observação de aves",
-                "Guias de safári"               
+                "10056",
+                "16019"         
             ],                        
-            happyHour: [
-                "Piqueniques ao entardecer",
-                "Bebidas orgânicas"
-            ],
             profissoes: [
                 "Biólogos",
                 "Ecologistas",
@@ -147,27 +99,20 @@ const sugestao = {
         },
         viagemdeluxo: {
             lugares: [
-                "Destinos exclusivos",
-                "Resorts de luxo",
-                "Jantares sofisticados",
-                "Experiências gastronômicas"
+                "10028",
+                "10037",
+                "10043",
+                "13387"
             ],
             acomodacoes: [
-                "Hotéis de cinco estrelas",
-                "Vilas privativas"
+                "19018"
             ],
             eventos: [
-                "Jantares gourmet",
-                "Festas exclusivas",
-                "Eventos de moda",
-                "Passeios de iate com guia",
-                "Excursões VIP",
-                "Passeios de iate privados",
-                "Tours personalizados"
+                "14006",
             ],
             happyHour: [
-                "Coquetéis em bares luxuosos",
-                "Degustações premium"
+                "13148",
+                "13236"
             ],
             profissoes: [
                 "Empresários",
