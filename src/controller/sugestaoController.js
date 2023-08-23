@@ -105,10 +105,12 @@ const sugestao = {
                 "13387"
             ],
             acomodacoes: [
+                "19014",
                 "19018"
             ],
             eventos: [
                 "14006",
+                "14005"
             ],
             happyHour: [
                 "13148",
@@ -124,29 +126,21 @@ const sugestao = {
         },
         mochilao: {
             lugares: [
-                "Destinos econômicos",
-                "Cidades históricas",
-                "Comidas de rua",
-                "Cozinhar refeições simples",
-                "Compartilhar refeições"
+                "10027",
+                "10047",
+                "10069"
             ],
             acomodacoes: [
-                "Albergues",
-                "Hostels",
-                "Hospedagens econômicas"
+                "19013",
             ],
             eventos: [
-                "Encontros de mochileiros",
-                "Festivais de música",
-                "Oficinas criativas",
-                "Passeios a pé por bairros locais",
-                "Tours alternativos",
-                "Passeios urbanos a pé",
-                "Tours culturais autênticos"
+                "14004",
+                "14005"
             ],
             happyHour: [
-                "Conhecer bares locais",
-                "Happy hour descontraído"
+                "13002",
+                "13031",
+                "13037"
             ],
             profissoes: [
                 "Estudantes",
