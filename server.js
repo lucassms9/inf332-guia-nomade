@@ -9,6 +9,7 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./swagger");
 
 app.use(express.json());
+app.use("/", (req, res) => res.send("Hello world"));
 app.use("/api/", modoRoutes);
 app.use("/api/", estiloRoutes);
 app.use("/api/", sugestaoRoutes);

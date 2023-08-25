@@ -8,6 +8,7 @@ const cidadeRoutes = require("../routes/cidade");
 
 const app = express();
 app.use(express.json());
+app.use("/", (req, res) => res.send("Hello world"));
 app.use("/api/", modoRoutes);
 app.use("/api/", estiloRoutes);
 app.use("/api/", sugestaoRoutes);
