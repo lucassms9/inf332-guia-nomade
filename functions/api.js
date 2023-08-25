@@ -1,10 +1,10 @@
 const express = require("express");
 const serverless = require("serverless-http");
-const modoRoutes = require("./routes/modo");
-const estiloRoutes = require("./routes/estilo");
-const sugestaoRoutes = require("./routes/sugestao");
-const lugarRoutes = require("./routes/lugar");
-const cidadeRoutes = require("./routes/cidade");
+const modoRoutes = require("../routes/modo");
+const estiloRoutes = require("../routes/estilo");
+const sugestaoRoutes = require("../routes/sugestao");
+const lugarRoutes = require("../routes/lugar");
+const cidadeRoutes = require("../routes/cidade");
 
 const app = express();
 app.use(express.json());
